@@ -1,0 +1,7 @@
+Original array of year  : [1963, 1988, 2021, 2022, 2001, 2005, 2008, 2002, 1957, 1960]
+
+Sorted array of year    : [1957, 1960, 1963, 1988, 2001, 2002, 2005, 2008, 2021, 2022]
+
+Original array of name  : [Jennifer, Philip, Harold, Coraline, Connor, Catherine]
+
+Sorted array of name    : [Catherine, Connor, Coraline, Harold, Jennifer, Philip]
