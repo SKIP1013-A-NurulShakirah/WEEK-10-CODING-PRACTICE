@@ -1,0 +1,46 @@
+package selfcodingexercises;
+
+// Write a java program to calculate the average value of array elements
+
+/*
+ public class Exercise4 {
+ public static void main(String[] args) {   
+ 
+    int[] numbers = new int[]{20, 30, 25, 35, -16, 60, -100};
+    
+    //calculate sum of all array elements
+    int sum = 0;
+    for(int i=0; i < numbers.length ; i++)
+    sum = sum + numbers[i];
+    
+    //calculate average value
+    double average = sum / numbers.length;
+    System.out.println("Average value of the array elements is : " + average); 
+   }
+}
+*/
+
+
+import java.util.Scanner;
+
+public class Exercise04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int[] num = new int[10];
+		int sum = 0;
+		
+		System.out.println("Enter ten number : ");
+		for (int i=0; i<num.length; i++) {
+			num[i] = sc.nextInt();
+			sum = sum + num[i];
+		}
+		System.out.println("\nSum of number array is " +sum);
+		System.out.println("Average of number array is " +sum/num.length);
+
+	}
+
+}
