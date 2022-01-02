@@ -1,0 +1,46 @@
+// Write a java program to sort a numeric array and a string array
+
+package selfcodingexercises;
+
+import java.util.Arrays;
+
+public class Exercise01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		EXAMPLE :
+		
+		int[] list1 = {1789, 2035, 1899, 1456, 2013, 
+	                  1458, 2458, 1254, 1472, 2365, 
+	                  1456, 2165, 1457, 2456};
+		
+		String[] list2 = {"Java", "Python", "PHP", "C#", "C Programming", "C++"};
+		
+		System.out.println("Original numeric array : " +Arrays.toString(list1));
+	    Arrays.sort(list1);
+	    System.out.println("\nSorted numeric array   : " +Arrays.toString(list1));
+	    
+	    System.out.println("\nOriginal string array  : " +Arrays.toString(list2));
+	    Arrays.sort(list2);
+	    System.out.println("\nSorted string array    : " +Arrays.toString(list2));
+	    */
+		
+	    
+	    int[] year = {1963, 1988, 2021, 2022, 2001, 2005, 2008, 2002, 1957, 1960};
+	
+	    String[] name = {"Jennifer", "Philip", "Harold", "Coraline", "Connor", "Catherine"};
+	
+	    System.out.println("Original array of year  : " +Arrays.toString(year));
+        Arrays.sort(year);
+        System.out.println("\nSorted array of year    : " +Arrays.toString(year));
+  
+        System.out.println("\nOriginal array of name  : " +Arrays.toString(name));
+        Arrays.sort(name);
+        System.out.println("\nSorted array of name    : " +Arrays.toString(name));
+
+
+	}
+
+}
