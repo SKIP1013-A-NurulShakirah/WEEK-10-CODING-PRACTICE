@@ -1,0 +1,3 @@
+Original Array : [20, 50, 45, 15, 75, 95, 40, 35, 80, 10]
+
+After removing the second element: [20, 45, 15, 75, 95, 40, 35, 80, 10, 10]
