@@ -1,0 +1,24 @@
+package selfcodingexercises;
+
+import java.util.Scanner;
+
+public class SearchingArrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int[] myArray = {10, 20, 30, 40, 50, 60, 70};
+		int searchValue = 30;
+		
+		for (int i=0; i<myArray.length; i++) {
+			if (searchValue == myArray[i])
+				System.out.println("Found!");
+			else
+				System.out.println("Not Found!");
+		}
+
+	}
+
+}
