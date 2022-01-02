@@ -1,0 +1,29 @@
+package selfcodingexercises;
+
+import java.util.Scanner;
+
+public class FrequencyOfArrayElement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int[] myNumber = {6, 3, 4, 5, 3, 2, 3, 7, 6, 5};
+		int even=0, odd=0;
+		
+		for (int i=1; i<myNumber.length; i++) {
+			myNumber[i] = sc.nextInt();
+			if (myNumber[i] %2 == 0) {
+				even = even +1;
+				System.out.println("Even");
+			}
+			else {
+				odd = odd + 1;
+				System.out.println("Odd");
+			}
+		}
+
+	}
+
+}
