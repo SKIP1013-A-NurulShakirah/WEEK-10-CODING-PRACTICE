@@ -1,0 +1,26 @@
+package selfcodingexercises;
+
+import java.util.Scanner;
+
+public class SmallestIndexOfLargestElement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double[] myList = {1, 5, 3, 4, 5, 5};
+		double max = myList[0];
+		int indexOfMax = 0;
+		
+		for (int i=1; i<myList.length; i++) {
+			if (myList[i] > max) {
+				max = myList[i];
+				indexOfMax = i;
+			}
+		}
+		System.out.println(indexOfMax);
+
+	}
+
+}
