@@ -1,0 +1,41 @@
+package selfcodingexercises;
+
+//Write a Java program to copy an array by iterating the array. 
+
+/*
+ EXAMPLE:
+ import java.util.Arrays; 
+ public class Exercise8 {
+  public static void main(String[] args) {
+    int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
+    int[] new_array = new int[10];     
+ 
+    System.out.println("Source Array : "+Arrays.toString(my_array));     
+   
+    for(int i=0; i < my_array.length; i++) {
+      new_array[i] = my_array[i];
+    }
+    System.out.println("New Array: "+Arrays.toString(new_array));
+  }
+ }
+ */
+
+
+import java.util.Arrays;
+public class Exercise08 {
+
+	public static void main(String[] args) {
+		
+		int[] list = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
+	    int[] item = new int[10];     
+	 
+	    System.out.println("Source Array : "+Arrays.toString(list));     
+	   
+	    for(int i=0; i < list.length; i++) {
+	    	item[i] = list[i] + 10;
+	    }
+	    System.out.println("\nNew Array    : "+Arrays.toString(item));
+
+	}
+
+}
